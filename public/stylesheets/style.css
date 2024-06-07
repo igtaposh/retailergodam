@@ -81,7 +81,7 @@ html {
       font-size: 10px !important;
    }
 
-   .max-px-10{
+   .max-px-10 {
       padding-left: 2.5rem !important;
       padding-right: 2.5rem !important;
    }
@@ -101,3 +101,19 @@ html {
 }
 
 @media screen and (max-width: 500px) {}
+
+.grid-self {
+   display: grid;
+   grid-template-columns: auto 50px 50px 50px !important;
+}
+.number-arrow::-webkit-outer-spin-button, .number-arrow::-webkit-inner-spin-button{
+   -webkit-appearance: none !important;
+}
+
+.bg-blur{
+   background-color: rgba(0, 0, 0, 0.3);
+   backdrop-filter: blur(1px) !important;
+}
+.border-bottom-4{
+   border-bottom-width: 4px !important;
+}
