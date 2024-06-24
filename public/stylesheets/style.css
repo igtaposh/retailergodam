@@ -117,3 +117,8 @@ html {
 .border-bottom-4{
    border-bottom-width: 4px !important;
 }
+
+.top-border-yellow{
+   border-top: 12px solid orange !important;
+   border-bottom: 12px solid orange !important;
+}

@@ -20,4 +20,13 @@ app.get('/stockreport', function (req, res) {
 app.get('/inventory', function (req, res) {
    res.render('inventory');
 })
+app.get('/suppliers', function (req, res) {
+   res.render('supplierlist');
+})
+app.get('/login', function (req, res) {
+   res.render('login');
+})
+app.get('/signup', function (req, res) {
+   res.render('signup');
+})
 app.listen(3000)
