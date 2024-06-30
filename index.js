@@ -29,4 +29,10 @@ app.get('/login', function (req, res) {
 app.get('/signup', function (req, res) {
    res.render('signup');
 })
+app.get('/supplierprofile', function (req, res) {
+   res.render('supplierprofile');
+})
+app.get('/productprofile', function (req, res) {
+   res.render('productprofile');
+})
 app.listen(3000)
